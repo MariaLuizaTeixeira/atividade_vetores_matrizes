@@ -20,9 +20,8 @@ programa
 			}
 		}
 
-		
 			para(inteiro i=0; i < 5; i++)
-		{
+			{
 			escreva("Insira o ", i + 1, "º número par:\n")
 			leia(listadePares[i])
 
@@ -31,8 +30,8 @@ programa
 				escreva("Esse algoritmo só aceita números pares, insira novamente. \n")
 				i--
 			}
-		}
-
+			}
+	
 		para(inteiro i=0; i < 10; i = i + 2)
 			{
 					
@@ -41,5 +40,16 @@ programa
 
 				posicao++
 			}
+
+			mostra_lista(listaGeral)
+
+	}
+
+	funcao mostra_lista(inteiro listaGeral[])
+	{
+		para(inteiro i=0; i < 10; i++)
+		{
+			escreva(listaGeral[i], "\n")
+		}
 	}
 }
